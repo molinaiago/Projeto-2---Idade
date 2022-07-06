@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Idade</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Verificador de Idade</h1>
+    </header>
+
+    <section>
+        <div>
+            <p> Ano de Nascimento
+                <input type="number" name="txtano" id="txtano" min="4">
+            </p>
+
+            <p>Sexo:
+                    <input type="radio" name="radsex" id="masc" checked>
+                    <label for="masc">Masculino</label>
+                    <input type="radio" name="radsex" id="fem">
+                    <label for="fem">Feminino</label>
+            </p>
+
+            <p>
+                <input type="button" value="VERIFICAR" onclick="verificar()">
+            </p>
+        </div>
+
+        <div id="res">
+
+        </div>
+
+    </section>
+
+    <footer>
+        <a href="https://linktr.ee/iagomolina" target="_blank">&copy; Iago Molina Camargo</a>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

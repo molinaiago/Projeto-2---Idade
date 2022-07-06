@@ -1,0 +1,31 @@
+body {
+    background-color: rgb(102, 97, 93);
+    font: normal 18pt Helvetica;
+}
+
+header {
+text-align: center;
+color: white;
+}
+
+section {
+    width: 500px;
+    height: 500px;
+    background-color: aliceblue;
+    border-radius: 15px;
+    padding: 20px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.952); /* deslocamento lateral, vertical, espalhamento e a cor */
+}
+
+div#res{
+    padding: 20px;
+}
+
+footer {
+color: white;
+margin:auto;
+text-align: center;
+font-style: italic;
+padding: 15px;
+}
